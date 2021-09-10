@@ -5,7 +5,7 @@
 }
 .layout {
   height: 100vh;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -19,7 +19,10 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
-  color: white;
+  color: whitesmoke;
+  padding: 10px 20px 20px 20px;
+  border: 5px double goldenrod;
+  border-radius: 10px;
 }
 
 .opciones {
@@ -33,7 +36,7 @@
 }
 
 .recordatorio {
-  color: white;
+  color: grey;
   margin-top: 60px;
 }
 
@@ -42,7 +45,6 @@
   background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
   background-color: #f9f9f9;
   border-radius: 6px;
-  border: 1px solid #dcdcdc;
   display: inline-block;
   cursor: pointer;
   color: #000000;
@@ -54,8 +56,8 @@
   text-shadow: 0px 1px 0px #ffffff;
 }
 .botones:hover {
-  background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
-  background-color: #e9e9e9;
+  background: linear-gradient(to bottom, #ff8000 5%, #ff8000 100%);
+  background-color: #ff8000;
 }
 .botones:active {
   position: relative;
