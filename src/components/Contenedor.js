@@ -3,7 +3,7 @@ import Historial from "./Historial";
 import SeccionTexto from "./SeccionTexto";
 import Opciones from "./Opciones";
 import textos from "./data.json";
-import { render } from "react-dom";
+//import { render } from "react-dom";
 
 let historial = [];
 class Contenedor extends React.Component {
@@ -11,6 +11,7 @@ class Contenedor extends React.Component {
     super(props);
 
     this.state = {
+      //   data: [],
       data: [...textos],
       count: 0,
       eleccion: 1,
@@ -21,11 +22,11 @@ class Contenedor extends React.Component {
 
   //   componentDidMount() {
   //     this.setState({ data: textos }); //...textos
-  //     console.log("data", this.state.data);
+  //    console.log("data desde el ciclo", this.state.data);
   //   }
 
   seleccion = (seleccion) => {
-    if (this.state.count > 7) {
+    if (this.state.count >= 7) {
       historial = [];
       this.setState({
         eleccion: 1,
@@ -33,6 +34,7 @@ class Contenedor extends React.Component {
         eleccionAnterior: "Aún no ha seleccionado nada",
         historial: historial,
       });
+      alert("Que menos que un 10! 🤓 (al menos por el esfuerzo)");
     } else if (seleccion === "A" && this.state.eleccionAnterior !== "A") {
       this.setState({
         eleccion: this.state.count + 1 + "a",
@@ -65,6 +67,7 @@ class Contenedor extends React.Component {
   };
 
   render() {
+    console.log("data render", this.state.data);
     return (
       <div className="layout">
         <SeccionTexto data={this.state.data} count={this.state.count} />

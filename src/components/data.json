@@ -9,25 +9,25 @@
   },
   {
     "id": "2a",
-    "historia": "2A Instantáneamente entras en pánico por lo bizarro de la situación y gritas: -Aiiudaaaa. Nadie responde. Detrás de un árbol enfrente tuyo se asoma lo que parece ser una bola de pelo de 2 metros.",
+    "historia": "Instantáneamente entras en pánico por lo bizarro de la situación y gritas: -Aiiudaaaa. Nadie responde. Detrás de un árbol enfrente tuyo se asoma lo que parece ser una bola de pelo de 2 metros.",
     "opciones": {
-      "a": "2A Te levantás y caminás lentamente hacia atrás.",
-      "b": " Te levantás y salís corriendo."
+      "a": "Te levantás y caminás lentamente hacia atrás.",
+      "b": "Te levantás y salís corriendo."
     }
   },
   {
     "id": "2b",
-    "historia": "2B Miras a tu alrededor y ves solo árboles, plantas y hongos, Detrás de un árbol enfrente tuyo se asoma lo que parece ser una bola de pelo de 2 metros.",
+    "historia": "Miras a tu alrededor y ves solo árboles, plantas y hongos, Detrás de un árbol enfrente tuyo se asoma lo que parece ser una bola de pelo de 2 metros.",
     "opciones": {
       "a": "Te levantás y caminás lentamente hacia atrás.",
-      "b": "2B Te levantás y salís corriendo."
+      "b": "Te levantás y salís corriendo."
     }
   },
   {
     "id": "3a",
-    "historia": "3A Lento y sin sacarle la mirada de encima te vas alejando de la cosa peluda. Ves que de golpe se mueve y empieza a correr hacia vos, no distinguis que es pero salis corriendo. Escuchas de golpe un grito proveniente de la cosa peluda: -Esperaaa!!",
+    "historia": "Lento y sin sacarle la mirada de encima te vas alejando de la cosa peluda. Ves que de golpe se mueve y empieza a correr hacia vos, no distinguis que es pero salis corriendo. Escuchas de golpe un grito proveniente de la cosa peluda: -Esperaaa!!",
     "opciones": {
-      "a": "3A Le haces caso y esperas.",
+      "a": "Le haces caso y esperas.",
       "b": "Mira si voy a esperar, sigo corriendo."
     }
   },
@@ -36,14 +36,14 @@
     "historia": "3B Al levantarte ves que se mueve y empieza a correr hacia vos, no distinguís que és pero salís corriendo pensando que puede ser un oso. Escuchas de golpe un grito proveniente de la cosa peluda: -Esperaaa!!",
     "opciones": {
       "a": "Le haces caso y esperas.",
-      "b": "3B Mira si voy a esperar, sigo corriendo."
+      "b": "Mira si voy a esperar, sigo corriendo."
     }
   },
   {
     "id": "4a",
     "historia": "4A Paras de correr y al darte vuelta con algo de miedo ves que lo que te perseguía se detiene, te quedas sin palabras al ver que es un oso gigante con la cara de una señora muy maquillada que te dice; -Si querés llorar, llora pero estás en un sueño mi amor.",
     "opciones": {
-      "a": "4A Me río en la cara del oso-señora.",
+      "a": "Me río en la cara del oso-señora.",
       "b": "Me pongo a bailar."
     }
   },
@@ -52,13 +52,13 @@
     "historia": "4B El miedo no deja tu cuerpo y hace bien así que seguís corriendo, sin darte cuenta te tropezas con una piedra y quedas de cara con lo que te perseguía, lo que ves es ridículo, un oso gigante con la cara de una señora muy maquillada que te dice; -Si querés llorar, llora pero estás en un sueño mi amor.",
     "opciones": {
       "a": "Me río en la cara del oso-señora.",
-      "b": "4B Me pongo a bailar."
+      "b": "Me pongo a bailar."
     }
   },
   {
     "id": "5a",
     "historia": "5A Te empezas a reir como nunca, y de una forma bastante molesta la verdad. El oso-señora se cansa de vos y te da una sólida bofetada en la cara con su brazo de 60kg que te tuerce el cuello y te despierta instantáneamente. FIN.",
-    "opciones": { "a": "A FIN.", "b": "FIN." }
+    "opciones": { "a": "FIN.", "b": "FIN." }
   },
   {
     "id": "5b",
